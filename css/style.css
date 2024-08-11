@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* {
+    box-sizing: border-box;
+  }*/
+  
+.container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+/*body {
+   box-sizing: border-box; 
+}*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+.logo-img{
+  width: 40%;
+  height: 100px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.top-txt {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    margin-left: -100px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-left:600px;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 0px;
+    position: relative;
+    margin-top: 0px;
+    border-top: 2px solid #ff6347;
+    border-bottom: 2px solid #ff6347;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+    
+}
+.btn:hover{
+    letter-spacing: 15px;
+}
+
+.hero-section h1 {
+    margin-top: 60px;
+    font-size: 140px;
+    margin-bottom: -90px;
+    padding: 20px;
+    margin-left: -100px;
+    text-transform: uppercase;
+}
+
+.hero-section p {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.4;
+    margin-top:70px;
+    margin-left: -100px;
+    padding: 20px;
+    text-align:justify;
+}
+.product-img{
+    width: 40%;
+    height: 430px;
+    margin-left: 760px;
+    margin-top: -440px;
+    margin-bottom: 80px;
+    box-shadow: 5px 5px 5px 5px rgb(54 57 58);
+}
+.service-img{
+  width: 40%;
+  height: 430px;
+  margin-left: -60px;
+  margin-top: 240px;
+  margin-bottom: 80px;
+}
+.service-section h1 {
+    float: right;
+    margin-top: -500px;
+    font-size: 50px;
+    margin-right: -150px;
+    text-transform: uppercase;
+}
+.service-section p {
+    float: right;
+    line-height: 1.4;
+    font-size: 30px;
+    margin-top:-340px;
+    margin-right: -130px;
+    text-align:justify;
+    margin-left: 570px;
+}
+.services-card h1{
+    margin-top: 150px;
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    margin-right: -140px;
+    text-transform: uppercase;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-left: 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: -50px -310px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height:200px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 100px;
+    margin-left:200px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease 0s;
+}
+.services-img-card {
+    width: 10%;
+    height: 40px;
+    float: left;
+    margin-left: 12px;
+    margin-top: -32px;
+}
+.card p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.price h1{
+    margin-top: 270px;
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    margin-right: -140px;
+    text-transform: uppercase;
+}
+.price-column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-left: 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .price-row {margin: -50px -310px;}
+  
+  /* Clear floats after the columns */
+  .price-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .price-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height:570px;
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 100px;
+    margin-left:200px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+
+  /*.price-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease 0s;
+}*/
+/*.services-img-card {
+    width: 10%;
+    height: 40px;
+    float: left;
+    margin-left: 12px;
+    margin-top: -32px;
+}*/
+.price-card p{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.price-card h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    
+    font-family: cursive;
+}
+.price-card h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.price-card h5{
+    font-size: 20px;
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    line-height: 1.5;
+    font-family: cursive
+    
+}
+.price-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 0px;
+    position: relative;
+    margin-top: 0px;
+    border-top: 2px solid #ff6347;
+    border-bottom: 2px solid #ff6347;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+    
+}
+.wrapper{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+/*.price-btn{
+    display: block;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+  }*/
+  
+  .price-btn:hover{
+    letter-spacing: 15px;
+  }
+  
+
+  .footer-container {
+    background-color: #2c2c2c;
+    color: white;
+    margin-top: 400px;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: auto;
+  }
+  
+  .footer-section h3 {
+    color: #f00; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: left;
+  }
+  
+  .footer-section {
+    margin-right: 20px;
+  }
+  
+  .newsletter input[type=email] {
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 640px;
+    margin-top: 20px;
+  }
+  
+  .newsletter button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+  }
+  .about-us h3 {
+    color: #f00; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-top: -300px;
+  }
+  .newsletter h3 {
+    color: #f00; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -150px;
+  }
+  .follow-us h3 {
+    color: #f00; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align:right;
+    margin-top: -100px;
+  }
+  
+  .social-icons img {
+    width: 20px;
+    height: auto;
+    margin-right: 15px;
+    margin-left: 10px;
+    float: right;
+    margin-top: 20px;
+  }
+  
+  .footer-container p {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 730px;
+    font-family: cursive;
+    font-style: italic;
+  }
+  
